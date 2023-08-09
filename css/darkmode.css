@@ -1,0 +1,233 @@
+#dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    margin: 0px;
+    background-color: var(--verydarkblue);
+}
+
+#db-title {
+    height: 10%;
+    margin: 30px 150px 0px 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-text {
+    width: 50%;
+}
+
+.title-text .main {
+    font-weight: 700;
+    font-size: 2em;
+    margin: 0px;
+    color: var(--white)
+}
+
+.title-text .desc {
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0px;
+    color: var(--darkgrayishblue)
+}
+
+.title-toggle {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.toggle-label p {
+    color: var(--white);
+    font-weight: bold;
+}
+
+#db-content {
+    height: 90%;
+    margin: 10px 150px 0px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socmed {
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 23%;
+    border-radius: 10px;
+    background-color: var(--darkdesaturatedblue);
+    display: flex;
+    flex-direction: column;
+}
+
+.small-card {
+    width: 100%;
+    height: 98%;
+    border-radius: 10px;
+    background-color: var(--darkdesaturatedblue);
+    display: flex;
+    flex-direction: column;
+}
+
+.fb {
+    border-top: 4px solid var(--facebook);
+}
+
+.twitter {
+    border-top: 4px solid var(--twitter);
+}
+
+.ig {
+    background-image: var(--instagram);
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.youtube {
+    border-top: 4px solid var(--youtube);
+}
+
+.card-title {
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto 20px auto;
+}
+
+.socmed-title {
+    margin: auto;
+    color: var(--darkgrayishblue)
+}
+
+.socmed-icon {
+    margin: 0 5px;
+}
+
+.follow-count {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.num {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0 auto;
+    color: var(--white)
+}
+
+.follower {
+    margin: 0 auto;
+    font-size: .8em;
+    letter-spacing: 0.5em;
+    color: var(--darkgrayishblue)
+}
+
+.count-change {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.change-icon {
+    margin: auto;
+}
+
+.change-num {
+    margin: auto;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.up {
+    color: var(--limegreen);
+}
+
+.down {
+    color: var(--brightred);
+}
+
+.overview {
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-title {
+    height: 10%;
+}
+
+.overview-title .main {
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+    color: var(--white)
+}
+
+.overview-content {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.view-title, .view-content {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: space-between;
+    padding: 10px 20px
+}
+
+.view-title .title {
+    margin: auto 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--darkgrayishblue)
+}
+
+.view-title .icon {
+    margin: auto;
+    margin-right: 0;
+}
+
+.view-content .num {
+    font-size: 3em;
+    font-weight: bold;
+    margin: auto 0;
+    color: var(--white)
+}
+
+.view-content .change {
+    display: flex;
+    flex-direction: row;
+}
+
+.view-content .change .icon {
+    margin: auto 0;
+    margin-right: 3px;
+}
+
+.view-content .change .percent {
+    margin: auto 0;
+}
+
+.card:hover, .small-card:hover {
+    background-color: var(--darkerdesaturatedblue);
+}

@@ -1,0 +1,47 @@
+.dark-mode-toggle {
+    margin: auto 0px;
+    margin-right: 0;
+}
+
+.toggle-switch {
+    background: linear-gradient(45deg, rgb(58, 58, 210), rgb(34, 235, 137));
+    width: 60px;
+    border-radius: 50px;
+    height: 30px;
+}
+
+.toggle-label {
+    display: flex;
+    width: 100px;
+    text-align: left;
+    z-index: 99;
+}
+
+.toggle-label p {
+    margin: auto;
+}
+
+.toggle-switch-state {
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    position: relative;
+    top: 3px;
+    z-index: 99;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.toggle-switch-state:has(input:not(:checked)){
+    left: 3px;
+    background-color: white;
+}
+
+.toggle-switch-state:has(input:checked) {
+    left: 33px;
+    background-color: black;
+}
+
+#dark-on {
+    visibility: hidden;
+}
