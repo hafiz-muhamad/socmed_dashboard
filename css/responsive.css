@@ -1,4 +1,4 @@
-@media (max-width: 400px){
+@media (max-width: 450px){
     #dashboard {
         height: 3000px;
     }
@@ -55,5 +55,50 @@
     .row {
         height: 40%;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 800px) {
+    #db-title {
+        margin: 30px 100px 0px 100px;
+    }
+
+    #db-content {
+        margin: 10px 100px 0px 100px;
+    }
+
+    .card-title {
+        margin: 20px auto 10px auto;
+    }
+
+    .view-content .num {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 425px) {
+    #db-title {
+        margin: 30px 30px 0px 30px;
+    }
+
+    #db-content {
+        margin: 10px 30px 0px 30px;
+    }
+
+    .card-title {
+        margin: 20px auto 10px auto;
+    }
+
+    .num {
+        font-size: 3em;
+    }
+
+    .follower {
+        font-size: .6em;
+        letter-spacing: 0.5em;
+    }
+
+    .view-content .num {
+        font-size: 2em;
     }
 }
